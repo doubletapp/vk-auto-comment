@@ -3,9 +3,6 @@ import time
 from vk_auto_comment.vk_api import VkAPI
 from settings import WALLS_IDS, POSTS_COUNT, COMMENT_MESSAGES, ATTACHMENTS, ACCESS_TOKENS
 
-
-
-
 # набор ботов
 vk_bots = [VkAPI(access_token)for access_token in ACCESS_TOKENS]
 
